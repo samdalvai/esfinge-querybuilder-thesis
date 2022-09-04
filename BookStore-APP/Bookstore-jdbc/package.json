@@ -1,0 +1,33 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "End to end testing for a simple jsp web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:cache:path": "cypress cache path",
+    "cypress:cache:list": "cypress cache list",
+    "cypress:verify": "cypress verify",
+    "e2e": "cypress run",
+    "e2e:chrome": "cypress run --browser chrome",
+    "e2e:edge": "cypress run --browser edge",
+    "e2e:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:samdalvai/thesis.git"
+  },
+  "author": "Samuel Dalvai",
+  "license": "ISC",
+  "bugs": {
+    "url": "..."
+  },
+  "homepage": "...",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Entities>
+   <Entity>
+        <name>Book</name>
+		<class>it.unibz.Book</class>
+   </Entity>
+
+   <Entity>
+        <name>String</name>
+		<class>java.lang.String</class>
+   </Entity>
+
+   <Entity>
+        <name>Integer</name>
+		<class>java.lang.Integer</class>
+   </Entity>
+
+    <Entity>
+        <name>Double</name>
+        <class>java.lang.Double</class>
+    </Entity>
+
+</Entities>

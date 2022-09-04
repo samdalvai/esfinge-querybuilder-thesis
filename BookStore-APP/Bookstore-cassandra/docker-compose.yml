@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  cassandra:
+    image: cassandra:4.0
+    ports:
+      - "9142:9042"
+    volumes:
+      - ~/apps/net.sf.esfinge.querybuilder.cassandra:/var/lib/net.sf.esfinge.querybuilder.cassandra
+    environment:
+      - CASSANDRA_CLUSTER_NAME=citizix
