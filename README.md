@@ -1,2 +1,8 @@
 # esfinge-querybuilder-thesis
-A repository for the thesis of the BSc in Computer Science at the Free University of Bozen/Bolzano
+
+This repository contains the work done for the Bachelor's thesis in Computer Science at the Free University of Bolzano.
+
+# Author
+
+**Name**: Samuel Dalvai <br>
+**Email**: samdalvai@unibz.it <br>
