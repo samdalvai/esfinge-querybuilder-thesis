@@ -33,7 +33,7 @@ trusted by thousands of companies for scalability and high availability without 
 # How to use the QueryBuilder
 
 For an overall view of the `Esfinge Querybuilder` utilization you can view the
-general [documentation](../documentation/README.md) on the framework. The following is a specific guide for using the
+general [documentation](../documentation/DOCUMENTATION.md) on the framework. The following is a specific guide for using the
 Cassandra plugin along with the framework.
 Please keep in mind that for this configuration guide we suppose that you will be using Maven, but you are free to use
 any other method to manage dependencies.
