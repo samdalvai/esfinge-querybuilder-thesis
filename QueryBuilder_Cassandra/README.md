@@ -17,23 +17,19 @@ trusted by thousands of companies for scalability and high availability without 
 
 # Prerequisites
 
-* Java 1.8 or higher. If you want to use `Cassandra Unit` instead of a local version of the cassandra Database, you
-  should not use java versions higher than 1.8, otherwise the component might not work properly.
+* Java 1.8 or higher.
 * Maven
-* Docker
 
 # How to configure the project (on IntelliJ Idea)
 
 * Open the project in `IntelliJ`
 * Load `Maven script` if prompted by the IDE
-* Run `docker-compose up -d` to run the Cassandra database or use `Cassandra Unit` by uncommenting the line in the
-  method `initCassandaUnit` of the class `net.sfesfinge.querybuilder.cassandra.integration.dbutils.CassandraTestUtils`.
-* Run the tests with `mvn test`. Please note that there is another project in this repository called `QueryBuilder_Cassandra_IntegrationTests`, which contains just the integration tests performed with a packaged version of `QueryBuilder Cassandra`. 
+* Run the tests with `mvn test`. Please note that there is another project in this repository called `QueryBuilder_Cassandra_IntegrationTests`, which contains the integration tests performed with a packaged version of `QueryBuilder Cassandra`. 
 
 # How to use the QueryBuilder
 
 For an overall view of the `Esfinge Querybuilder` utilization you can view the
-general [documentation](documentation/DOCUMENTATION.md) on the framework. The following is a specific guide for using the
+general [documentation](documentation/README.md) on the framework. The following is a specific guide for using the
 Cassandra plugin along with the framework.
 Please keep in mind that for this configuration guide we suppose that you will be using Maven, but you are free to use
 any other method to manage dependencies.
